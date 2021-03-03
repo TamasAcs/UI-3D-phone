@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <title>3D Phone</title>
+  </head>
+  <body>
+    <div id="bg"><img src="banner.png" alt="bg" class="bg"></div>
+<nav id="top">
+  <ul class="row">
+    <li>Galaxy S21 Ultra</li>
+    <li>Galaxy Note</li>
+    <li>Accessories</li></ul>
+  </nav>
+<nav id="side">
+  <img src="logo.png" alt="logo" id="logo">
+  <div class="side-bottom">
+  <i class="fas fa-search fa-lg"></i>
+  <i class="far fa-heart fa-lg"></i>
+</div>
+</nav>
+<div class="info">
+  <h1>Galaxy Z Fold 3</h1>
+  <h3>Pro cameras. Pro display. Pro performance.</h3>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident delectus maiores dolor, amet necessitatibus voluptatem deserunt at illum molestiae, odio molestias minima laudantium in, reiciendis deleniti fuga. In, laboriosam? Ipsum blanditiis pariatur corporis natus optio culpa unde earum quam consectetur repellendus labore temporibus quasi iusto explicabo tenetur iure, error suscipit!</p>
+  <button class="btn">Learn more</button>
+</div>
+
+    <div class="container">
+        <model-viewer id="model"
+          src="Untitled15.gltf"
+          alt="robot"
+          auto-rotate
+          camera-controls ar ios-src="Untitled15.gltf"
+        ></model-viewer>
+    </div>
+    </div>
+
+    <div class="vid">
+      <div class="play">
+      <i class="fas fa-play"></i>
+    </div>
+    </div>
+    
+    
+  </body>
+</html>
